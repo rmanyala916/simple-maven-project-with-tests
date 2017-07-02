@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  solitaire:
+  tomcat:
     build: .
     ports:
       - 3000:8080
